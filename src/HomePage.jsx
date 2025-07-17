@@ -1,6 +1,6 @@
 import React, { useContext, useMemo, useEffect } from 'react';
 import { FlightContext } from './FlightContext';
-import { flightData } from './data';
+import { flightData } from './Data';
 import Sidebar from './Sidebar';
 import SearchSection from './Searchsection';
 import FilterPanel from './FilterPanel';
