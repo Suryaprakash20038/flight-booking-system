@@ -6,6 +6,8 @@ import SearchSection from './Searchsection';
 import FilterPanel from './FilterPanel';
 import FlightList from './Flightlist';
 import './HomePage.css';
+import data from "./data";
+
 
 function HomePage() {
   const {
