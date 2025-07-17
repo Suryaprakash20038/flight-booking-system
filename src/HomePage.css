@@ -1,0 +1,82 @@
+.homepage-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.search-section {
+  background: #f5f8ff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.search-section input, .search-section button {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+}
+
+.flight-filter-container {
+  display: flex;
+  gap: 20px;
+}
+
+.flight-list {
+  flex: 2;
+  overflow-y: auto;
+  max-height: 500px;
+}
+
+.filter-panel {
+  flex: 1;
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.homepage-container {
+  display: flex;
+  min-height: 100vh;
+
+  background-image: url("airplane-side-view-flying-above-the-clouds-with-dramatic-sky-background-illustration-plane-with-sunset-concept-vector.jpg"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.search-section {
+  background-color: navajowhite; /* translucent white */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+.search-btn {
+  background-color: #007bff; /* Bootstrap primary blue */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-btn:hover {
+  background-color: #0056b3;
+}
+
+.search-btn:disabled {
+  background-color: #b0c4de;
+  cursor: not-allowed;
+}
+button.reset-btn {
+    width: 91px;
+}

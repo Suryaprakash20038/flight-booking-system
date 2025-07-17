@@ -1,0 +1,22 @@
+.booking-summary {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 8px;
+  max-width: 400px;
+  background-color: #f8f9fa;
+}
+
+.booking-summary h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.booking-summary p {
+  margin: 0.4rem 0;
+}
+
+.booking-summary h3 {
+  margin-top: 1rem;
+  color: #007b5e;
+}

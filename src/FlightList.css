@@ -1,0 +1,191 @@
+
+.flight-list-container {
+  background-color: navajowhite; 
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-height: 500px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  backdrop-filter: blur(6px); 
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.flight-list-container::-webkit-scrollbar {
+  width: 8px;
+}
+.flight-list-container::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+.flight-list-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 8px;
+}
+.flight-list-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.flight-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.flight-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.flight-card div {
+  flex: 1;
+}
+
+.flight-card strong {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.flight-card p {
+  margin: 8px 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.flight-card p strong {
+  color: #000;
+} 
+
+
+.flight-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.flight-airline,
+.flight-route,
+.flight-price {
+  flex: 1;
+  min-width: 180px;
+}
+
+.flight-airline p,
+.flight-route p,
+.flight-price p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.flight-airline strong {
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.flight-price .price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #28a745;
+  margin-bottom: 6px;
+}
+
+.book-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-btn:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+.flight-card:hover {
+  transform: translateY(-3px);
+}
+
+.flight-airline,
+.flight-route,
+.flight-price {
+  flex: 1;
+  min-width: 180px;
+}
+
+.flight-airline h5 {
+  margin-bottom: 5px;
+  color: #1e3c72;
+  font-weight: bold;
+}
+
+.flight-route p,
+.flight-price p {
+  margin: 6px 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.flight-price {
+  text-align: right;
+}
+
+.book-btn {
+  background-color: #0d6efd;      
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.book-btn:hover {
+  background-color: #0b5ed7;      
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+.flight-card {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin-bottom: 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.flight-list-scroll {
+  max-height: 70vh; 
+  overflow-y: auto;
+  padding-right: 10px;
+  margin-top: 1rem;
+  scroll-behavior: smooth;
+}
+
+.flight-list-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+.flight-list-scroll::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
