@@ -1,7 +1,7 @@
 
 import React, { useContext } from 'react';
 import { FlightContext } from './FlightContext';
-import FlightCard from './FlightCard';
+import FlightCard from './Flightcard';
 import './FlightList.css';
 
 function FlightList() {
